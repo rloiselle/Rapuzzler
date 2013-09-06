@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Puzzle Box</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="src/css/style.css" rel="stylesheet" media="screen">
+
+ <!-- include source files here... -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+  <script>!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>')</script>
+  <script src="src/Raptorize/jquery.raptorize.1.0.js"></script>
+  <script type="text/javascript" src="src/js/index_js.js"></script>
+
+</head>
+<body>
+    <h1>This is a Puzzle!</h1>
+    <h2> Directions: Change all the squares to be blue by clicking on the square.</h2
+    <h3>Be sure to reset the game when you've finished!</h3>
+    <p></p>
+    <div id="gameBox">
+      <div>
+          <div class="cell" data-row="1" data-col="1">1_1</div>
+          <div class="cell" data-row="1" data-col="2">1_2</div>
+          <div class="cell" data-row="1" data-col="3">1_3</div>
+      </div>
+      <div>
+          <div class="cell" data-row="2" data-col="1">2_1</div>
+          <div class="cell" data-row="2" data-col="2">2_2</div>
+          <div class="cell" data-row="2" data-col="3">2_3</div>
+      </div>
+      <div>
+          <div class="cell" data-row="3" data-col="1">3_1</div>
+          <div class="cell" data-row="3" data-col="2">3_2</div>
+          <div class="cell" data-row="3" data-col="3">3_3</div>
+      </div>
+
+    </div>
+
+    <button id="wipe">reset the game!</button>
+</body>
